@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p {
+    text-align: center;
+    font-size: 24px;
+}
+
+body {
+    background-color: #182C61;
+}
+
+main {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    right: 20px;
+    bottom: 20px;
+
+    display: flex;
+
+    border-radius: 10px;
+    border: 2px solid #2c2c54;
+    background-color: #2C3A47;
+}
+
+/*                  Główna plansza                    */
+div.board {
+    height: 100%;
+    width: 75%;
+    border-right: 2px solid #2c2c54;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+/* Boss Details */
+
+div.bossDetails {
+    display: flex;
+    height: 25%;
+    justify-content: space-around;
+}
+
+div.bossCards {
+    text-align: center;
+    height: 130px;
+    width: 100px;
+    background-color: tan;
+    border-radius: 10px;
+}
+
+div.bossPic {
+    height: 100%;
+    width: 360px;
+    border-radius: 10px;
+    background-image: url('monster.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+/* div.bossPic img {
+    display: block;
+    /* margin: auto; */
+/* width: 100%;
+    height: auto;
+} */
+
+div.bossHealth {
+    text-align: center;
+    height: 100px;
+    width: 200px;
+    background-color: tan;
+    border-radius: 10px;
+}
+
+/* Boss Deck */
+div.bossDeckContainer {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+}
+
+div.bossDeck {
+    background-color: #b33939;
+    width: 900px;
+    height: 100%;
+    text-align: center;
+    border-radius: 10px;
+}
+
+/* Player Details */
+div.playerDetails {
+    height: 30%;
+    display: flex;
+    justify-content: space-around;
+}
+
+div.playerDeck {
+    text-align: center;
+    width: 620px;
+    background-color: wheat;
+    border-radius: 10px;
+}
+
+div.playerHealth {
+    text-align: center;
+    height: 100px;
+    border-radius: 10px;
+    width: 200px;
+    background-color: tan;
+}
+
+
+/*                  Nawigacja                         */
+nav.navigation {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    height: 100%;
+    width: 25%;
+    background-color: #40407a;
+    border-radius: 0 10px 10px 0;
+}
+
+/* Shop */
+
+div.shop {
+    width: 75%;
+    height: 50%;
+    background-color: #2C3A47;
+    border-radius: 10px;
+    border: 2px solid #2c2c54;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: space-around;
+}
+
+.shop p {
+    width: 100%;
+}
+
+div.cardFromShop {
+    margin: 15px;
+    width: 16%;
+    height: 20%;
+    background-color: tan;
+}
+
+div.money {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: whitesmoke;
+}
+
+div.playerCards {
+    height: 130px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: tan;
+}
